@@ -1,4 +1,4 @@
-# react-native-picker
+# rn-picker-fix
 
 [![npm version](https://img.shields.io/npm/v/react-native-picker.svg?style=flat-square)](https://www.npmjs.com/package/react-native-picker) <a href="https://david-dm.org/beefe/react-native-picker"><img src="https://david-dm.org/beefe/react-native-picker.svg?style=flat-square" alt="dependency status"></a>   
 
@@ -50,7 +50,7 @@
 #### Step 1 - install
 
 ```javascript
-	npm install react-native-picker --save
+	npm install rn-picker-fix --save
 ```
 
 #### Step 2 - link
@@ -62,7 +62,7 @@
 #### Step 3 - import and use in project
 
 ```javascript
-import Picker from 'react-native-picker';
+import Picker from 'rn-picker-fix';
 let data = [];
 for(var i=0;i<100;i++){
     data.push(i);
@@ -94,10 +94,10 @@ target 'YourTarget' do
     'Core',
     ...
     ]
-    pod 'Picker', :path => '../YOUR_REACT_NATIVE_PROJECT/node_modules/react-native-picker'
+    pod 'Picker', :path => '../YOUR_REACT_NATIVE_PROJECT/node_modules/rn-picker-fix'
 end
 ```
-After you have updated the `Podfile` of the existing app, you can install `react-native-picker` like below:
+After you have updated the `Podfile` of the existing app, you can install `rn-picker-fix` like below:
 ``` bash
 $ pod install
 ```
